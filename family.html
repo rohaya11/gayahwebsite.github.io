@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Family</title>
+        <link href="mystyle.css" type="text/css" rel="stylesheet">
+
+    <style>
+        * 
+        {
+            box-sizing: border-box;
+        }
+
+        body
+{
+  font-family: Arial;
+  padding: 10px;
+  background-image: url('background3.gif');  
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  margin: 0px;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+/* Website Header */
+.header
+{
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.header h1
+{
+  font-size: 40px;
+}
+
+/*top navigation bar */
+.topnav
+{
+  overflow: hidden;
+  background-color: #915F6D;
+  border-radius: 10px;
+}
+
+/* style top navigation links */
+.topnav a
+{
+  float:left;
+  display:flex;
+  color:black;
+  text-align: center;
+  padding: 15px 60px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+/* change color on hover */
+.topnav a:hover
+{
+  background-color: #ddd;
+  color:black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+        <body>
+            <div class="header">
+                <img src="FAMILY.png" alt="heading home" width="fit-content">
+            </div>
+            
+            <div class="topnav">
+              <a href="home.html"><b><u>Home</a></b></u>
+              <a href="biodata.html"><b><u>Biodata</a></b></u>
+              <a href="education.html"><b><u>Education</a></b></u>
+              <a href="experience.html"><b><u>Experience</a></b></u>
+              <a href="family.html"><b><u>Family</a></b></u>
+              <a href="gallery.html"><b><u>Gallery</a></b></u>
+              <a href="contact us.html"><b><u>Contact Me</a></b></u>
+          </div>
+            <div style="text-align:center">
+              <h1>°❀⋆.ೃ࿔*:･MY FAMILY°❀⋆.ೃ࿔*:･</h1>
+            </div>
+            
+            <div class="row">
+              <div class="column">
+                <img src="fam pic.jpg" alt="Family Picture" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 1.jpg" alt="Family 1" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 2.jpg" alt="Family 2" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 3.jpg" alt="Family 3" style="width:100%" onclick="myFunction(this);">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="column">
+                <img src="family 4.jpg" alt="Family 4" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 5.jpg" alt="Family 5" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 6.jpg" alt="Family 6" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="family 7.jpg" alt="Family 7" style="width:100%" onclick="myFunction(this);">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="column">
+                <img src="family 8.jpg" alt="Family 8" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="mama 2.jpg" alt="My Mom" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="mama n ayah.jpg" alt="Parents" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="mama.jpg" alt="Mom" style="width:100%" onclick="myFunction(this);">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="column">
+                <img src="mok 2.jpg" alt="Younger Sister" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="mok 3.jpg" alt="younger Sister 2" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="myself.jpg" alt="Myself" style="width:100%" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="redzuan.jpg" alt="Older Brother" style="width:100%" onclick="myFunction(this);">
+              </div>
+            </div>
+
+            <div class="container">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              <img id="expandedImg" style="width:50%" >
+              <div id="imgtext"></div>
+            </div>
+            
+            <script>
+            function myFunction(imgs) {
+              var expandImg = document.getElementById("expandedImg");
+              var imgText = document.getElementById("imgtext");
+              expandImg.src = imgs.src;
+              imgText.innerHTML = imgs.alt;
+              expandImg.parentElement.style.display = "block";
+            }
+            </script>
+             
+ 
+            <div class="footer">
+                   <p>This website was develop by Rohaya</p>
+              </div>
+
+        </body>
+</html>
