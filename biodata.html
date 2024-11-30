@@ -1,0 +1,288 @@
+<html>
+    <head>
+        <title>Biodata</title>
+        <link href="mystyle.css" type="text/css" rel="stylesheet">
+
+    <style>
+        * 
+        {
+            box-sizing: border-box;
+        }
+
+body
+{
+  font-family:Lucida Sans;
+  padding: 10px;
+  background-image: url('background3.gif');  /* Your background image */
+  background-size: cover; /* Make the image cover the whole screen */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center;
+  margin: 0px;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+/* Website Header */
+.header
+{
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.header h1
+{
+  font-size: 50px;
+}
+
+/*top navigation bar */
+.topnav
+{
+  overflow: hidden;
+  background-color: #915F6D;
+  border-radius: 10px;
+}
+
+/* style top navigation links */
+.topnav a
+{
+  float:left;
+  display:flex;
+  color:black;
+  text-align: center;
+  padding: 15px 60px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+/* change color on hover */
+.topnav a:hover
+{
+  background-color: #ddd;
+  color:black;
+}
+
+
+.content {
+  display: flex;
+  gap: 3px; /* space between columns */
+  margin-top: 10px;
+  align-items: stretch; /* Ensures all columns are the same height */
+}
+
+.leftcolumn, .centercolumn
+{
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.leftcolumn {
+  height: fit-content;
+  width: 30%; /* column size */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center; /* This centers the image horizontally */
+}
+
+.leftcolumn img {
+  width: 100%; /* Ensures image fits inside the column */
+  max-width: 200px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 4px;
+}
+
+
+.centercolumn {
+  width: 40%; /* Adjust width as needed */
+}
+
+.rightcolumn {
+  width: 30%;
+  padding: 20px;
+  background-color:transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  margin: 0 auto; /* Center the card horizontally */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center-align the text inside the card */
+  display: flex; /* Enable flexbox for better alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.social-icons a {
+  display: inline-block; 
+}
+
+
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table 
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th 
+{
+  border: 1px solid  black;
+  text-align: center;
+  padding: 8px;
+  font-size: 15;
+  background-color: #e7d2e4;
+}
+
+
+</style>
+</head>
+
+        <body>
+            <div class="header">
+                <img src="ABOUT ME.png" alt="heading home" width="fit-content">
+            </div>
+            
+            <div class="topnav">
+              <a href="home.html"><b><u>Home</a></b></u>
+              <a href="biodata.html"><b><u>Biodata</a></b></u>
+              <a href="education.html"><b><u>Education</a></b></u>
+              <a href="experience.html"><b><u>Experience</a></b></u>
+              <a href="family.html"><b><u>Family</a></b></u>
+              <a href="gallery.html"><b><u>Gallery</a></b></u>
+              <a href="contact us.html"><b><u>Contact Me</a></b></u>
+          </div>
+
+            <div class="content">
+              <div class="leftcolumn">
+                <p></p>
+                <p></p>
+                <img src="gayah1.jpg" alt="myself" style="width:100%; max-width:200px; height:auto; border-radius: 4px;">
+            <p></p>
+                  <table>
+                    <tr>
+                      <td>Name</td>
+                      <td>Siti Rohaya Binti Mohamad Hata</td>
+                    </tr>
+                    <tr>
+                      <td>Age</td>
+                      <td>20 Years Old</td>
+                    </tr>
+                    <tr>
+                      <td>Date <sup>Of</sup> <sub>Birth</sub></td>
+                      <td>11 September 2004</td>
+                    </tr>
+                    <tr>
+                      <td>Race</td>
+                      <td>Malay</td>
+                    </tr>
+                    <tr>
+                      <td>Nationality</td>
+                      <td>Malaysia</td>
+                    </tr>
+                    <tr>
+                      <td>State</td>
+                      <td>Johor</td>
+                    </tr>
+                    <tr>
+                      <td>City</td>
+                      <td>Batu Pahat</td>
+                    </tr>
+                  </table>
+              </div></br>
+            </br>
+          </br>
+
+              <div class="centercolumn">
+                  <h3 style="text-align: center;"><b>My Biodata</b></h3>
+                  <p>Assalamualaikum and hi!! My name is Siti Rohaya Binti Mohamad Hata and people usually call me Rohaya. I was born in 11 September 2004 in Senggarang, Johor. I was the second child out of three siblings, which was my bolder brother and younger sister. This year I was officially in my 20's and right now I'm on my way to finishing my diploma in UiTM Segamat. I was roll in Diploma in Information Management that lead me to doing this assignment.</p>
+                  <p></p>
+                  <p>Talked about my hobby, I love watching drama or movies with variety or genre. However, the one that i love the most is chinese historical drama with an amazing plot. Apart from that, listening to music was also one of my hobby. For me, hobby is more than just something I do in free time, but it's a way for me to express myself and find my happiness.</p>
+                  <br>
+                  <p id="song" style="color: black; text-align: center;":><b>My Favourite Playlist</p></b>
+                  <ol type= "I" style= "color: black; margin: 0 auto; list-style-position: outside; text-align: left; width: fit-content;">
+                    <li><a href="https://youtu.be/cyrGAnZUp1U?si=xuOw0lFipL5fGWRX" target="_blank">Treasure - Thank You </a></li>
+                    <li><a href="https://youtu.be/eA9pwL-8wJw?si=VirIbDj6DO02i8WM" target="_blank">NCT Dream - Like We Just Me</a></li>
+                    <li><a href="https://youtu.be/A_sC4V-Kpi4?si=tbJylkuIBHnn2cRq" target="_blank">Jeff Satur - Black Tie</a></li>
+                    <li><a href="https://youtu.be/ZlStESuBMhE?si=riCjfYrweNrvO5Hd" target="_blank">LYKN - No Worries</a></li>
+                    <li><a href="https://youtu.be/ynOtYmpZxak?si=uSZ2FbGijxqMAAEm" target="_blank">Babymonster - Dream</a></li>
+                  </ol>
+                  <br>
+                  <p id="drama"style="color:black; text-align: center;"><b>My Top Drama Playlist</p></b>
+                  <ul type="disc" style="margin: 0 auto; list-style-position: outside; text-align: left; width: fit-content;">
+                    <li> Dashing Youth</li>
+                    <li> Falling Into Your Smile</li>
+                    <li> Till The End Of The Moon</li>
+                    <li> Moon Lovers: Scarlet Heart Ryeo</li>
+                    <li> Alchemy Of Souls</li>
+                    <br>
+              </div>
+
+              <div class="rightcolumn">
+                <div class="card">
+                  <p style="text-align: center;"><b>My Favourite Video</b>
+                  <a href="https://youtu.be/9xf9-UXaUmQ?si=L1_fhik9bg613JRB" target="_blank">Phuwin Podcast</a></p>
+                  <video width="300" controls>
+                    <source src="phuwin.mp4" type="video/mp4">
+                  </video>
+                  <p>
+                  </p>
+                </div>
+                <br>
+                <div class="card">
+                  <p style="text-align: center;"><b>Sneak Peek of My Favourite Drama</p></b>
+                    <video width="300" controls>
+                    <source src="Dashing Youth .mp4" type="video/mp4">
+                    </video>
+                </div>
+                <br>
+                <div class="card">
+                  <p style="text-align: center;"><b>Follow Me On Social Media:</b></p>
+                  <div class="social-icons">
+                    <a href="https://www.instagram.com/_.rohayaaa_?igsh=YXR4ZzRrZ3Q0bXpw" target="_blank">
+                      <img src="instagram.webp" alt="Instagram logo" style="width:42px; height:42px;">
+                    </a>
+                    <a href="https://x.com/__rhayaaa?t=QdLtockyloeoZzdQmf8VRQ&s=35" target="_blank">
+                      <img src="twitter.jpg" alt="X logo" style="width:42px; height:42px;">
+                    </a>
+                    <a href="https://www.tiktok.com/@bubbly.snowflakess?_t=8rnlhPgf2he&_r=1" target="_blank">
+                      <img src="tiktok.webp" alt="Tiktok logo" style="width:42px; height:42px;">
+                    </a>
+                  </div>
+                </div>
+                </div>
+                </div>
+                
+            <div class="footer">
+                   <p>This website was develop by Rohaya</p>
+              </div>
+
+        </body>
+</html>
