@@ -104,7 +104,6 @@ body {
   justify-content: center; /* Centers content horizontally */
   align-items: center; /* Centers content vertically */
 }
-
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
@@ -114,6 +113,16 @@ body {
   font-size: 35px;
   cursor: pointer;
 }
+
+.love li{
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  .love li::before{
+    content:"♡";
+    font-size:20px;
+    margin-right: 10px;
+  }
 </style>
 </head>
 
@@ -133,11 +142,22 @@ body {
           </div>
             <div style="text-align:center">
               <h1>°❀⋆.ೃ࿔*:･MY FAMILY°❀⋆.ೃ࿔*:･</h1>
+              <br>
+              <img src="fam pic.jpg" alt="Family Picture" style="width:35%">
+                <p id="family"style="color:black; text-align: center;"><b><u>My Family Member</p></u></b>
+                <ul class="love" style="margin: 0 auto; list-style-position: outside; text-align: left; width: fit-content;">
+                <li> My Father</li>
+                <li> My Mother</li>
+                <li> Older Brother</li>
+                <li> Myself</li>
+                <li> Younger Sister</li>
+                <br>
+            </div>
             </div>
             
             <div class="row">
               <div class="column">
-                <img src="fam pic.jpg" alt="Family Picture" style="width:100%" onclick="myFunction(this);">
+                <img src="family 9.jpg" alt="Family Picture" style="width:100%" onclick="myFunction(this);">
               </div>
               <div class="column">
                 <img src="family 1.jpg" alt="Family 1" style="width:100%" onclick="myFunction(this);">
